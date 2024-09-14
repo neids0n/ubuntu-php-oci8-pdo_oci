@@ -23,7 +23,7 @@ alien -i oracle-instantclient-basic-21.11.0.0.0-1.x86_64.rpm && alien -i oracle-
 alien -i oracle-instantclient-devel-21.11.0.0.0-1.x86_64.rpm && export ORACLE_HOME=/usr/lib/oracle/21/client64
 
 # Baixando e instalando o OCI8
-RUN cd ~ && pecl download oci8 && tar xzf oci8-3.3.0.tgz && cd oci8-3.3.0/ && phpize && \
+RUN cd ~ && pecl download oci8 && tar xzf oci8-3.4.0.tgz && cd oci8-3.4.0/ && phpize && \
 ./configure --with-oci8=instantclient,/usr/lib/oracle/21/client64/lib && make install && \
 echo "extension=oci8.so" > /etc/php/8.3/mods-available/oci8.ini && \
 ln -s /etc/php/8.3/mods-available/oci8.ini /etc/php/8.3/apache2/conf.d/oci8.ini && \
@@ -37,7 +37,7 @@ make install && echo "extension=pdo_oci.so" > /etc/php/8.3/mods-available/pdo_oc
 ln -s /etc/php/8.3/mods-available/pdo_oci.ini /etc/php/8.3/apache2/conf.d/pdo_oci.ini && \
 ln -s /etc/php/8.3/mods-available/pdo_oci.ini /etc/php/8.3/cli/conf.d/pdo_oci.ini && \
 service apache2 restart && echo "<?php\nphpinfo();\n?>" > /var/www/html/phpinfo.php && \
-cd ~ && rm -rf oracle-instantclient-* oci8-3.3.0* *PHP* *.xml
+cd ~ && rm -rf oracle-instantclient-* oci8-3.4.0* *PHP* *.xml
 
 WORKDIR /var/www/html
 EXPOSE 80

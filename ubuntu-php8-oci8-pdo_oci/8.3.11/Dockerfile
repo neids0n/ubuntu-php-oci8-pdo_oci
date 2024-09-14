@@ -17,10 +17,9 @@ RUN sed -i '$s/$/\n/' /etc/apache2/apache2.conf && sed -i '$i ServerName localho
 
 # Baixando e instalando os pacotes do Oracle Instantclient
 RUN cd ~ &&  wget https://download.oracle.com/otn_software/linux/instantclient/2111000/oracle-instantclient-basic-21.11.0.0.0-1.x86_64.rpm && \
-wget https://download.oracle.com/otn_software/linux/instantclient/2111000/oracle-instantclient-sqlplus-21.11.0.0.0-1.x86_64.rpm && \
 wget https://download.oracle.com/otn_software/linux/instantclient/2111000/oracle-instantclient-devel-21.11.0.0.0-1.x86_64.rpm && \
-alien -i oracle-instantclient-basic-21.11.0.0.0-1.x86_64.rpm && alien -i oracle-instantclient-sqlplus-21.11.0.0.0-1.x86_64.rpm && \
-alien -i oracle-instantclient-devel-21.11.0.0.0-1.x86_64.rpm && export ORACLE_HOME=/usr/lib/oracle/21/client64
+alien -i oracle-instantclient-basic-21.11.0.0.0-1.x86_64.rpm && alien -i oracle-instantclient-devel-21.11.0.0.0-1.x86_64.rpm && \
+export ORACLE_HOME=/usr/lib/oracle/21/client64
 
 # Baixando e instalando o OCI8
 RUN cd ~ && pecl download oci8 && tar xzf oci8-3.4.0.tgz && cd oci8-3.4.0/ && phpize && \

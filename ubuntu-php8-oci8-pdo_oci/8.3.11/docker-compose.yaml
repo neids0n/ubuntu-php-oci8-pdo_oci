@@ -1,9 +1,9 @@
 version: '3.9'
 services:
-  ubuntu-php8-oci8-pdo_oci:
+  php8-3_oci8:
     build: .
-    container_name: ubuntu-php8-oci8-pdo_oci
-    hostname: php_oci8
+    container_name: php8-3_oci8
+    hostname: php8-3_oci8
     restart: always
     ports:
       - "8081:80"

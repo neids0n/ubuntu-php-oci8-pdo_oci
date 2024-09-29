@@ -4,7 +4,7 @@
 ##
 ##
 
-## 🐘7️⃣.4️⃣ [ubuntu-php7.4-oci8-pdo_oci](https://github.com/neids0n/ubuntu-php-oci8-pdo_oci/tree/php-7.4/ubuntu-php7.4-oci8-pdo_oci)
+## 🐘7️⃣.4️⃣ [ubuntu-php7.4-oci8-pdo_oci](https://github.com/neids0n/ubuntu-php-oci8-pdo_oci/tree/php-7.4)
 
 Conteúdo:
 
@@ -15,7 +15,7 @@ Conteúdo:
 ##
 ##
 
-## 🐘8️⃣.2️⃣ [ubuntu-php8.2-oci8-pdo_oci](https://github.com/neids0n/ubuntu-php-oci8-pdo_oci/tree/php-8.2/ubuntu-php8.2-oci8-pdo_oci)
+## 🐘8️⃣.2️⃣ [ubuntu-php8.2-oci8-pdo_oci](https://github.com/neids0n/ubuntu-php-oci8-pdo_oci/tree/php-8.2)
 
 Conteúdo:
 
@@ -26,7 +26,7 @@ Conteúdo:
 ##
 ##
 
-## 🐘8️⃣.3️⃣ [ubuntu-php8.3-oci8-pdo_oci](https://github.com/neids0n/ubuntu-php-oci8-pdo_oci/tree/php-8.3/ubuntu-php8.3-oci8-pdo_oci)
+## 🐘8️⃣.3️⃣ [ubuntu-php8.3-oci8-pdo_oci](https://github.com/neids0n/ubuntu-php-oci8-pdo_oci/tree/php-8.3)
 
 Conteúdo:
 

@@ -1,6 +1,6 @@
 services:
   ubuntu-php7-oci8-pdo_oci:
-    image: neids0n/ubuntu-php7-oci8-pdo_oci
+    image: ubuntu-php7-oci8-pdo_oci
     container_name: ubuntu-php7-oci8-pdo_oci
     hostname: ubuntu-php7-oci8-pdo_oci
     restart: always

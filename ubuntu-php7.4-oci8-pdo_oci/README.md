@@ -1,4 +1,4 @@
-## 🐘7️⃣ ubuntu-php7-oci8-pdo_oci
+## 🐘7️⃣ ubuntu-php7.4-oci8-pdo_oci
 
 Conteúdo:
 

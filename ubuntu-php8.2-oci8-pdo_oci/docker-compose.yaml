@@ -1,0 +1,8 @@
+services:
+  ubuntu-php8-oci8-pdo_oci:
+    image: neids0n/ubuntu-php8-oci8-pdo_oci
+    container_name: ubuntu-php8-oci8-pdo_oci
+    hostname: ubuntu-php8-oci8-pdo_oci
+    restart: always
+    ports:
+      - "8081:80"
